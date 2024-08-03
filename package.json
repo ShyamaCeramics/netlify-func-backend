@@ -1,0 +1,37 @@
+{
+  "name": "back_end_netly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "jwt-decode": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "netlify-cli": "^12.7.2",
+    "netlify-lambda": "^2.0.15",
+    "officegen": "^0.6.5",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^6.0.1",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
